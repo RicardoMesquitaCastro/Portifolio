@@ -1,0 +1,39 @@
+#sideNav {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+    background-color: brown;
+    
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.imgRic{
+    width: 150px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 5px 10px 20px 30px;
+    
+}
