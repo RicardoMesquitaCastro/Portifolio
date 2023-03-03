@@ -1,8 +1,12 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router'
+
+import { ROUTES } from './app.routes'
+
+
 import { AppComponent } from './app.component';
 import { ExperienciasComponent } from './experiencias/experiencias.component';
 import { ProjetosComponent } from './projetos/projetos.component';
@@ -34,12 +38,12 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    ReactiveFormsModule
+    BrowserModule,   
+    ReactiveFormsModule,
+    RouterModule.forRoot(ROUTES)
     
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'pr-Br' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

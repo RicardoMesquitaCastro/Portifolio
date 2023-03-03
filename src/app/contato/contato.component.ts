@@ -1,5 +1,6 @@
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-contato',
@@ -10,6 +11,10 @@ export class ContatoComponent implements OnInit {
   @Input() btnText!: string;
 
   momentForm!: FormGroup;
+
+  constructor(
+    
+  ){}
 
   ngOnInit(): void {
     this.momentForm = new FormGroup({
