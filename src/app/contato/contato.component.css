@@ -27,7 +27,11 @@ button{
 
 h3{
     text-align: center;
-    color: #fff;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: black;
+    border: none; 
+    margin-bottom: 20px;   
     
 }
 label{

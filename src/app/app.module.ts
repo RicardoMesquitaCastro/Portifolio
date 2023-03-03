@@ -15,6 +15,7 @@ import { InteressesComponent } from './interesses/interesses.component';
 import { CertificacoesComponent } from './certificacoes/certificacoes.component';
 import { ContatoComponent } from './contato/contato.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SobreComponent } from './sobre/sobre.component';
     InteressesComponent,
     CertificacoesComponent,
     ContatoComponent,
-    SobreComponent
+    SobreComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
