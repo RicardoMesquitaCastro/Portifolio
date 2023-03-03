@@ -8,6 +8,10 @@ import { ProjetosComponent } from './projetos/projetos.component';
 import { EscolaridadeComponent } from './escolaridade/escolaridade.component';
 import { LinguagensComponent } from './linguagens/linguagens.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { StarComponent } from './star/star.component';
+import { StarRatingComponent } from './star-rating/star-rating.component';
+import { InteressesComponent } from './interesses/interesses.component';
+import { CertificacoesComponent } from './certificacoes/certificacoes.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +20,16 @@ import { NavbarComponent } from './navbar/navbar.component';
     ProjetosComponent,
     EscolaridadeComponent,
     LinguagensComponent,
-    NavbarComponent
+    NavbarComponent,
+    StarComponent,
+    StarRatingComponent,
+    InteressesComponent,
+    CertificacoesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
