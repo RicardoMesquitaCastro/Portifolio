@@ -10,7 +10,7 @@ import { Experiencias } from '../models/experiências';
 })
 export class ExperienciasComponent implements OnInit {
 
- // public experiencia!: Experiencias
+ 
   public experiencias: Experiencias[] = EXPERIENCIAS
   
 

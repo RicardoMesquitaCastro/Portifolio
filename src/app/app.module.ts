@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,8 @@ import { StarComponent } from './star/star.component';
 import { StarRatingComponent } from './star-rating/star-rating.component';
 import { InteressesComponent } from './interesses/interesses.component';
 import { CertificacoesComponent } from './certificacoes/certificacoes.component';
+import { ContatoComponent } from './contato/contato.component';
+import { SobreComponent } from './sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { CertificacoesComponent } from './certificacoes/certificacoes.component'
     StarComponent,
     StarRatingComponent,
     InteressesComponent,
-    CertificacoesComponent
+    CertificacoesComponent,
+    ContatoComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
