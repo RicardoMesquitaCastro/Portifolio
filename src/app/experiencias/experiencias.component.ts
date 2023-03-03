@@ -1,5 +1,7 @@
+import { EXPERIENCIAS } from './../../../experiencias.mock';
 import { Component, OnInit} from '@angular/core';
 import { Experiencias } from '../models/experiências';
+
 
 @Component({
   selector: 'app-experiencias',
@@ -8,7 +10,9 @@ import { Experiencias } from '../models/experiências';
 })
 export class ExperienciasComponent implements OnInit {
 
-  public experiencia!: Experiencias
+ // public experiencia!: Experiencias
+  public experiencias: Experiencias[] = EXPERIENCIAS
+  
 
   ngOnInit(): void{       
 
