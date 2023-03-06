@@ -2,9 +2,9 @@ const express = require('express');
 
 const app = express();
 
-const appName = 'Portifolio';
+const appName = 'portifolio';
 
-const outputPath = `${__dirname}/dist/${Portifolio}`;
+const outputPath = `${__dirname}/dist/${portifolio}`;
 
 app.use(express.static(outputPath));
 
