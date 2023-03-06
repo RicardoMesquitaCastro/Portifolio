@@ -4,7 +4,7 @@ const app = express();
 
 const appName = 'portifolio';
 
-const outputPath = `${__dirname}/dist/${portifolio}`;
+const outputPath = `${__dirname}dist/${appName}`;
 
 app.use(express.static(outputPath));
 
